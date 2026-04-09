@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datasets (ne pas versionner les données brutes)
+chest_xray/
+__MACOSX/
+train/
+val/
+test/
+data/chest_xray/
+data/__MACOSX/
+*.zip
+
+# Generated outputs (optionnel)
+outputs/models/
